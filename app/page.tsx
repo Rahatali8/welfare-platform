@@ -106,28 +106,23 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-blue-50 via-white to-cyan-50 py-20 lg:py-32">
+      <section className="relative overflow-hidden bg-gradient-to-br from-blue-50 via-white to-cyan-50">
         {/* Animated Background Elements */}
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute -top-40 -right-40 h-80 w-80 rounded-full bg-blue-100 opacity-20 animate-pulse"></div>
           <div className="absolute -bottom-40 -left-40 h-80 w-80 rounded-full bg-cyan-100 opacity-20 animate-pulse delay-1000"></div>
-          <div className="absolute top-20 left-1/4 h-4 w-4 rounded-full bg-blue-400 animate-bounce delay-500"></div>
-          <div className="absolute bottom-20 right-1/4 h-6 w-6 rounded-full bg-cyan-400 animate-bounce delay-1000"></div>
         </div>
 
-        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-12">
+          <div className="grid lg:grid-cols-2 gap-12 items-start">
             {/* Left Content */}
             <div className="space-y-8 animate-slide-in-left">
               {/* Trust Badge */}
-              <div className="inline-flex items-center space-x-2 bg-white/80 backdrop-blur-md border border-blue-200 rounded-full px-4 py-2 shadow-lg">
-                <Shield className="h-4 w-4 text-blue-600" />
-                <span className="text-sm font-medium text-blue-900">Trusted by 15,000+ Families Since 2008</span>
-              </div>
+             
 
               {/* Main Heading */}
               <div className="space-y-6">
-                <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
+                <h1 className="text-4xl lg:text-5xl font-bold leading-tight">
                   <span className="bg-gradient-to-r from-blue-900 via-blue-700 to-cyan-600 bg-clip-text text-transparent">
                     Empowering Communities
                   </span>
@@ -186,9 +181,9 @@ export default function HomePage() {
               <div className="relative group">
                 <div className="relative overflow-hidden rounded-3xl shadow-2xl transform group-hover:scale-105 transition-all duration-500">
                   <img
-                    src="/placeholder.svg?height=500&width=600&text=Welfare+Work+in+Action"
+                    src="/placeholder.svg?height=300&width=400&text=Welfare+Work+in+Action"
                     alt="Welfare Work in Action"
-                    className="w-full h-[500px] object-cover"
+                    className="w-full h-[300px] object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
 
@@ -209,16 +204,7 @@ export default function HomePage() {
                   </div>
                 </div>
 
-                {/* Floating Achievement Badge */}
-                <div className="absolute -top-4 -right-4 bg-white/90 backdrop-blur-md rounded-2xl p-4 shadow-xl border border-white/30 animate-float">
-                  <div className="flex items-center space-x-2">
-                    <Award className="h-6 w-6 text-yellow-500" />
-                    <div>
-                      <div className="text-sm font-bold text-gray-900">ISO Certified</div>
-                      <div className="text-xs text-gray-600">Welfare Platform</div>
-                    </div>
-                  </div>
-                </div>
+
               </div>
             </div>
           </div>

@@ -116,22 +116,7 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Newsletter */}
-        <div className="border-t border-blue-800 py-8">
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div>
-              <h3 className="text-lg font-semibold mb-2">Stay Updated</h3>
-              <p className="text-blue-100">Subscribe to our newsletter for latest updates and success stories.</p>
-            </div>
-            <div className="flex space-x-2">
-              <Input
-                placeholder="Enter your email"
-                className="bg-blue-800 border-blue-700 text-white placeholder:text-blue-300"
-              />
-              <Button className="bg-cyan-600 hover:bg-cyan-700">Subscribe</Button>
-            </div>
-          </div>
-        </div>
+
 
         {/* Bottom Bar */}
         <div className="border-t border-blue-800 py-6">
